@@ -1,0 +1,15 @@
+.universal-padding {
+    padding: 2% 10%;
+}
+
+@media screen and (max-width: 1800px) {
+    .universal-padding {
+        padding: 2% 10%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .universal-padding {
+        padding: 2% 5%;
+    }
+}

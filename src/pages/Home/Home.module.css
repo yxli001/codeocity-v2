@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 2 0 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3.8rem;
+    line-height: 5.5rem;
+}
+
+.lineBreak {
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    margin: 2rem 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.green {
+    color: #65ca73;
+    font-weight: 500;
+}
+
+.right {
+    flex: 1 1 0px;
+    width: 40%;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 0.1s;
+    box-sizing: border-box;
+}
+
+.privateButton {
+    background-color: #65ca73;
+    border: 2px solid #65ca73;
+    color: white;
+}
+
+.privateButton:hover {
+    background-color: #49a856;
+    border: 2px solid #49a856;
+}
+
+.groupButton {
+    border: 2px solid #65ca73;
+    color: #65ca73;
+}
+
+.groupButton:hover {
+    border: 2px solid #49a856;
+    color: #49a856;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 3.2rem;
+        line-height: 5.3rem;
+    }
+
+    .lineBreak {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .title {
+        margin: 0 auto;
+        font-size: 3.2rem;
+        line-height: 5.3rem;
+        text-align: center;
+        width: 80%;
+    }
+
+    .left {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .title {
+        font-size: 2.5rem;
+        line-height: 4rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .button {
+        padding: 10px 15px;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
