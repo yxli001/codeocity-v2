@@ -1,78 +1,81 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2%;
 }
 
 .logo {
-    color: #65ca73;
-    font-size: 2.25rem;
-    text-decoration: none;
-    font-weight: 600;
+  color: #65ca73;
+  font-size: 2.25rem;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .linksContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .link {
-    font-size: 1.2rem;
-    margin: 0px 12px;
-    color: #383a2a;
-    text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0px 12px;
+  color: #383a2a;
+  text-decoration: none;
 }
 
 .link:hover {
-    color: #65ca73;
-    transition: 0.2s;
-}
-
-.burger {
-    display: none;
-}
-
-.burger:hover {
-    cursor: pointer;
+  color: #65ca73;
+  transition: 0.2s;
 }
 
 .upperRow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
-    transition: all 0.3s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 825px) {
-    .linksContainer {
-        flex-direction: column;
-        background-color: white;
-        border-bottom: 1px solid black;
-        width: 100%;
-    }
-    .link {
-        margin: 12px 0px;
-        font-size: 1.5rem;
-    }
+  .linksContainer {
+    flex-direction: column;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+  .link {
+    margin: 12px 0px;
+    font-size: 1.5rem;
+  }
 
-    .burger {
-        display: block;
-        margin-left: auto;
-        font-size: 2rem;
-    }
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
 
-    .container {
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-6.5px, 6px);
+  }
+
+  .change .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .change .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
 }
