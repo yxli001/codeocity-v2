@@ -1,0 +1,40 @@
+.bannerContainer {
+  display: flex;
+  background-color: #65ca73;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+.bannerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerItem:last-child {
+  border-right: none;
+}
+
+.bannerItemTitle {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.bannerItemDescription {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+}
+
+.line {
+  height: 60px;
+  width: 0.01px;
+  border-left: 2px solid white;
+}

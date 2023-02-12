@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import style from "./Navbar.module.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 import useWindowDimensions from "../../utils/Dimensions.utils.js";
 
 const Navbar = () => {
   const [displayNavbar, setDisplayNavbar] = useState(false);
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   const [isOpen, setIsOpen] = useState(false);
 
