@@ -4,6 +4,7 @@ import kid from "../../images/kid-graphic.png";
 import { Landing } from "./Landing/Landing.page";
 import { Banner } from "./Banner/Banner.page";
 import { UniversalPadding } from "../../components/UniversalPadding/UniversalPadding.component";
+import { Reviews } from "./Reviews/Reviews.page";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
         <Landing kid={kid} />
       </UniversalPadding>
       <Banner />
+      <UniversalPadding>
+        <Reviews />
+      </UniversalPadding>
     </div>
   );
 };
