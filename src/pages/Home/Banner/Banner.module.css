@@ -1,40 +1,73 @@
 .bannerContainer {
-  display: flex;
-  background-color: #65ca73;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1.5rem;
-  padding: 1.5rem;
+    display: flex;
+    background-color: #65ca73;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
 }
 
 .bannerItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .bannerItem:last-child {
-  border-right: none;
+    border-right: none;
 }
 
 .bannerItemTitle {
-  font-size: 2.25rem;
-  font-weight: 600;
-  color: #fff;
-  margin: 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
 }
 
 .bannerItemDescription {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #fff;
-  font-weight: 400;
-  margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
 }
 
 .line {
-  height: 60px;
-  width: 0.01px;
-  border-left: 2px solid white;
+    height: 60px;
+    width: 0.01px;
+    border-left: 2px solid white;
+}
+
+@media screen and (max-width: 700px) {
+    .bannerItemTitle {
+        font-size: 2rem;
+    }
+
+    .bannerItemDescription {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .bannerItemTitle {
+        font-size: 1.8rem;
+    }
+
+    .bannerItemDescription {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bannerContainer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .line {
+        height: 0.01px;
+        width: 80%;
+        border-bottom: 2px solid white;
+    }
 }
