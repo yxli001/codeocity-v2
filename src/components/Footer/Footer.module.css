@@ -1,0 +1,65 @@
+.footer {
+    color: white;
+    background-color: #65ca73;
+    padding: 3%;
+
+    display: grid;
+    grid-template-areas:
+        "info navigate courses"
+        "copyright copyright copyright";
+    grid-template-rows: 2fr 1rem;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+}
+
+.info {
+    grid-area: info;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.email {
+    font-size: 0.9rem;
+    margin: 0.2rem 0;
+    font-weight: 300;
+}
+
+.navigate {
+    grid-area: navigate;
+}
+
+.courses {
+    grid-area: courses;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.651);
+    color: white;
+    grid-area: copyright;
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3% 8%;
+    }
+
+    .navigate,
+    .courses {
+        justify-self: stretch;
+    }
+}
