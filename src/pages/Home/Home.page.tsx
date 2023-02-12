@@ -5,6 +5,7 @@ import { Landing } from "./Landing/Landing.page";
 import { Banner } from "./Banner/Banner.page";
 import { UniversalPadding } from "../../components/UniversalPadding/UniversalPadding.component";
 import { Reviews } from "./Reviews/Reviews.page";
+import { Lessons } from "./Lessons/Lessons.page";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Banner />
       <UniversalPadding>
         <Reviews />
+        <Lessons />
       </UniversalPadding>
     </div>
   );

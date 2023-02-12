@@ -1,0 +1,33 @@
+.lessonsContainer {
+  margin-top: 2%;
+}
+
+.privateTitle {
+  text-align: right;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #65ca73;
+}
+
+.groupTitle {
+  text-align: left;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #65ca73;
+}
+
+.privateLessonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  max-width: 50%;
+}
+
+.privateLessonsFormContainer {
+  max-width: 50%;
+  background-color: white;
+}
