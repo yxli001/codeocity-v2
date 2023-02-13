@@ -1,4 +1,6 @@
 import React from "react";
+import CoursesSlider from "../../../components/CoursesSlider/CoursesSlider.component";
+
 import style from "./Lessons.module.css";
 import learning from "../../../images/learning.png";
 
@@ -11,6 +13,7 @@ export const Lessons = () => {
         <div className={style.privateLessonsFormContainer}></div>
       </div>
       <h1 className={style.groupTitle}>Prefer Group Ones?</h1>
+      <CoursesSlider />
     </div>
   );
 };

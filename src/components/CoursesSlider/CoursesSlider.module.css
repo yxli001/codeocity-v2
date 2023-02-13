@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+    overflow-x: scroll;
+    padding: 5px 10px 15px 5px;
+}
+
+.item {
+    flex-shrink: 0;
+    width: 325px;
+}
+
+::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1) !important;
+    -webkit-border-radius: 10px !important;
+    color: rgb(101, 202, 115);
+    border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px !important;
+    border-radius: 10px !important;
+    background: #41617d !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #41617d !important;
+}
