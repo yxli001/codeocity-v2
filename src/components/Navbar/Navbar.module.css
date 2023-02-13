@@ -48,9 +48,14 @@
     font-size: 1.5rem;
   }
 
-  .burger-menu {
+  .burgerMenu {
     display: block;
     cursor: pointer;
+  }
+
+  .burgerMenu:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
 
   .bar {
