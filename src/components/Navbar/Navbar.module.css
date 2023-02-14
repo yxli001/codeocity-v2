@@ -15,6 +15,32 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  animation: slideIn 0.5s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.outDisplay {
+  display: none;
+}
+
+.inDisplay {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-top: 2%;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: 30vh;
+  }
 }
 
 .link {
@@ -36,21 +62,14 @@
   justify-content: space-between;
 }
 
+.burgerMenu:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 825px) {
-  .linksContainer {
-    flex-direction: column;
-    background-color: white;
-    border-bottom: 1px solid black;
-    width: 100%;
-  }
   .link {
     margin: 12px 0px;
     font-size: 1.5rem;
-  }
-
-  .burger-menu {
-    display: block;
-    cursor: pointer;
   }
 
   .bar {

@@ -29,22 +29,28 @@ const Navbar = () => {
           <div className={style.bar}></div>
         </div>
       </div>
-      {width > 825 || displayNavbar ? (
-        <div className={`${style.linksContainer}`}>
-          <Link className={style.link} to="/">
-            Home
-          </Link>
-          <Link className={style.link} to="/group-lessons">
-            Group Lessons
-          </Link>
-          <Link className={style.link} to="/private-lessons">
-            Private Lessons
-          </Link>
-          <Link className={style.link} to="/contact">
-            Contact
-          </Link>
-        </div>
-      ) : null}
+      <div
+        className={`${style.linksContainer} ${
+          width < 825 && displayNavbar
+            ? style.inDisplay
+            : width < 825
+            ? style.outDisplay
+            : null
+        }`}
+      >
+        <Link className={style.link} to="/">
+          Home
+        </Link>
+        <Link className={style.link} to="/group-lessons">
+          Group Lessons
+        </Link>
+        <Link className={style.link} to="/private-lessons">
+          Private Lessons
+        </Link>
+        <Link className={style.link} to="/contact">
+          Contact
+        </Link>
+      </div>
     </div>
   );
 };
