@@ -1,0 +1,64 @@
+.formContainer {
+  padding: 22px 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.textInput {
+  width: 90%;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
+}
+
+.formSection {
+  padding-bottom: 6px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.textInput:hover {
+  border-color: #52a85d;
+  transition: 0.5s;
+}
+
+.textarea {
+  resize: none;
+  font-family: "Inter", sans-serif;
+  height: 50px;
+  border-radius: 16px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 22px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #65ca73;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.submitButton:hover {
+  background-color: #52a85d;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .formContainer {
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .contactInfo {
+    box-sizing: border-box;
+  }
+  .textInput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

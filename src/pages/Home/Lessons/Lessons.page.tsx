@@ -3,6 +3,7 @@ import CoursesSlider from "../../../components/CoursesSlider/CoursesSlider.compo
 
 import style from "./Lessons.module.css";
 import learning from "../../../images/learning.png";
+import { Contact } from "./Contact/Contact.component";
 
 export const Lessons = () => {
   return (
@@ -10,7 +11,7 @@ export const Lessons = () => {
       <h1 className={style.privateTitle}>Want Private Lessons?</h1>
       <div className={style.privateLessonsContainer}>
         <img src={learning} alt="Private Lessons" className={style.image} />
-        <div className={style.privateLessonsFormContainer}></div>
+        <Contact />
       </div>
       <h1 className={style.groupTitle}>Prefer Group Ones?</h1>
       <CoursesSlider />

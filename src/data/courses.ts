@@ -62,8 +62,8 @@ const courses: Array<Course> = [
   {
     id: 3,
     title: "Intro to JavaScript",
-    price: 200,
-    numClasses: 8,
+    price: 250,
+    numClasses: 10,
     description:
       "In our Intro to JavaScript course, students will learn the basics of JavaScript syntax. Having experience with HTML or Java is required before beginning this course. It is highly recommended to take Web Dev 1 for those who have no experience.",
     content: [
@@ -90,8 +90,8 @@ const courses: Array<Course> = [
   {
     id: 4,
     title: "DOM Manipulation",
-    price: 200,
-    numClasses: 8,
+    price: 250,
+    numClasses: 10,
     description:
       "In this course, students will use JavaScript to manipulate a webpage. Students will select elements and change how they look based on what the user does. It is mandatory to know JavaScript, HTML, and CSS.",
     content: [
@@ -111,8 +111,8 @@ const courses: Array<Course> = [
   {
     id: 5,
     title: "Advanced CSS",
-    price: 200,
-    numClasses: 8,
+    price: 250,
+    numClasses: 10,
     description:
       "This course teaches students to create advanced layouts on their websites using technologies such as flexbox, grid, and media queries in CSS. ",
     content: [
