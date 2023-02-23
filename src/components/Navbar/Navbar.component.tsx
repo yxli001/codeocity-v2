@@ -17,7 +17,14 @@ const Navbar = () => {
   return (
     <div className={style.container}>
       <div className={style.upperRow}>
-        <Link className={`${style.logo}`} to="/">
+        <Link
+          className={`${style.logo}`}
+          to="/"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
           Codeocity
         </Link>
         <div
@@ -38,16 +45,44 @@ const Navbar = () => {
             : null
         }`}
       >
-        <Link className={style.link} to="/">
+        <Link
+          className={style.link}
+          to="/"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
           Home
         </Link>
-        <Link className={style.link} to="/group-lessons">
+        <Link
+          className={style.link}
+          to="/group-lessons"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
           Group Lessons
         </Link>
-        <Link className={style.link} to="/private-lessons">
+        <Link
+          className={style.link}
+          to="/private-lessons"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
           Private Lessons
         </Link>
-        <Link className={style.link} to="/contact">
+        <Link
+          className={style.link}
+          to="/contact"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
           Contact
         </Link>
       </div>
