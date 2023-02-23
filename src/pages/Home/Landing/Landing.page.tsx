@@ -8,7 +8,7 @@ export const Landing = ({ kid = "" }) => {
         <div className={styles.title}>
           Learning to <span className={styles.green}>Code</span>{" "}
           <p className={styles.lineBreak}></p>
-          Shouldn't Be Hard
+          Isn't Hard
         </div>
         <p className={styles.description}>
           Online coding classes taught by local high schoolers

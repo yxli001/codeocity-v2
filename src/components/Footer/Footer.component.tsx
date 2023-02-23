@@ -23,7 +23,7 @@ const Footer = () => {
     },
     {
       name: "Contact",
-      to: "/",
+      to: "/contact",
     },
   ];
 
@@ -53,7 +53,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.info}>
-        <div className={styles.title}>Codoecity</div>
+        <div className={styles.title}>Codeocity</div>
         <a
           href="mailto:contact@codeocity.org"
           target="_blank"

@@ -14,7 +14,7 @@ export const Banner = () => {
       </div>
       <div className={style.line}></div>
       <div className={style.bannerItem}>
-        <h1 className={style.bannerItemTitle}>5+</h1>
+        <h1 className={style.bannerItemTitle}>6</h1>
         <p className={style.bannerItemDescription}>Courses</p>
       </div>
     </div>
