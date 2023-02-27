@@ -1,0 +1,161 @@
+.contactPageContainer {
+  padding: 0% 8%;
+}
+
+.contactFormContainer {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  border-radius: 14px;
+}
+
+.contactInfo {
+  background-color: #65ca73;
+  padding: 24px 32px;
+  border-radius: 14px;
+  width: 100%;
+}
+
+.formDescription {
+  color: white;
+  max-width: 90%;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.contactInformationTitle {
+  color: white;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0px;
+}
+
+.contactTitle {
+  text-align: center;
+  color: #060747;
+}
+.contactSubDescription {
+  text-align: center;
+  color: white;
+}
+
+.contactMethod {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 20px;
+  padding-right: 9px;
+  color: white;
+}
+
+.formContainer {
+  padding: 22px 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.textInput {
+  width: 90%;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
+}
+
+.formSection {
+  padding-bottom: 6px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.textInput:hover {
+  border-color: #49a856;
+  transition: 0.5s;
+}
+
+.textarea {
+  resize: none;
+  font-family: "Inter", sans-serif;
+  height: 100px;
+  border-radius: 16px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 22px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #65ca73;
+  margin-top: 12px;
+}
+
+.submitButton:hover {
+  background-color: #49a856;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .contactFormContainer {
+    flex-direction: column;
+    padding: 12px;
+  }
+  .formContainer {
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .contactInfo {
+    box-sizing: border-box;
+  }
+  .textInput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .contactPageContainer {
+    padding: 0% 10%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contactPageContainer {
+    padding: 0% 5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contactPageContainer {
+    padding: 0% 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactPageContainer {
+    padding: 0% 4%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contactPageContainer {
+    padding: 0% 4%;
+  }
+}
