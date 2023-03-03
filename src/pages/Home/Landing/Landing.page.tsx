@@ -14,10 +14,16 @@ export const Landing = ({ kid = "" }) => {
           Online coding classes taught by local high schoolers
         </p>
         <div className={styles.buttonGroup}>
-          <Link to="/" className={`${styles.button} ${styles.privateButton}`}>
+          <Link
+            to="/private-lessons"
+            className={`${styles.button} ${styles.privateButton}`}
+          >
             Private Lessons
           </Link>
-          <Link to="/" className={`${styles.button} ${styles.groupButton}`}>
+          <Link
+            to="/group-lessons"
+            className={`${styles.button} ${styles.groupButton}`}
+          >
             Group Lessons
           </Link>
         </div>

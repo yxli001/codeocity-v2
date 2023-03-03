@@ -10,16 +10,12 @@ const Footer = () => {
       to: "/",
     },
     {
-      name: "Courses",
-      to: "/",
-    },
-    {
       name: "Group Lessons",
-      to: "/",
+      to: "/group-lessons",
     },
     {
       name: "Private Lessons",
-      to: "/",
+      to: "/private-lessons",
     },
     {
       name: "Contact",
@@ -30,23 +26,23 @@ const Footer = () => {
   const coursesLinks = [
     {
       name: "Scratch",
-      to: "/",
+      to: "/courses/1",
     },
     {
       name: "Web Dev 1",
-      to: "/",
+      to: "/courses/2",
     },
     {
       name: "Advanced CSS",
-      to: "/",
+      to: "/courses/4",
     },
     {
       name: "Intro to JavaScript",
-      to: "/",
+      to: "/courses/3",
     },
     {
       name: "DOM Manipulation",
-      to: "/",
+      to: "/courses/5",
     },
   ];
 

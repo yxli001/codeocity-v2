@@ -2,7 +2,7 @@ import React from "react";
 import CoursesSlider from "../../../components/CoursesSlider/CoursesSlider.component";
 
 import style from "./Lessons.module.css";
-import learning from "../../../images/learning.png";
+import learning from "../../../images/learning.jpeg";
 import { Contact } from "./Contact/Contact.component";
 
 export const Lessons = () => {

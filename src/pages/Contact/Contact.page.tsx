@@ -22,7 +22,7 @@ export const Contact = () => {
               className={styles.link}
               rel="noreferrer"
             >
-              brian@codeupnp.org
+              contact@codeocity.org
             </a>
           </div>
         </div>
