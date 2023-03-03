@@ -1,18 +1,22 @@
 import React from "react";
-import styles from "./PrivateLessons.module.css";
+import styles from "./Jobs.module.css";
 import { MdEmail } from "react-icons/md";
 
-const PrivateLessons = () => {
+export const Jobs = () => {
   return (
     <div className={styles.contactPageContainer} id="contact">
-      <h1 className={styles.contactTitle}>Private Lessons</h1>
+      <h1 className={styles.contactTitle}>Join the Codeocity Team!</h1>
       <div className={styles.contactFormContainer}>
         <div className={styles.contactInfo}>
           <h2 className={styles.contactInformationTitle}>
-            Want 1 on 1 instruction in any language?
+            Contact Information
           </h2>
           <p className={styles.formDescription}>
-            We offer lessons for only <b>$40/hour</b> on your schedule.
+            Fill out the form and we'll get back to you within 24 hours
+          </p>
+          <p className={styles.formDescription}>
+            We pay <b>$15/hour</b>, flexible scheduling. No teaching experience
+            required!
           </p>
           <div className={styles.contactMethod}>
             <MdEmail className={styles.icon} />
@@ -22,7 +26,7 @@ const PrivateLessons = () => {
               className={styles.link}
               rel="noreferrer"
             >
-              contact@codeupnp.org
+              contact@codeocity.org
             </a>
           </div>
         </div>
@@ -38,7 +42,7 @@ const PrivateLessons = () => {
                 type="text"
                 name="name"
                 className={styles.textInput}
-                placeholder="Full Name"
+                placeholder="Name"
                 required
               />
             </div>
@@ -48,41 +52,23 @@ const PrivateLessons = () => {
                 type="text"
                 name="email"
                 className={styles.textInput}
-                placeholder="Ex. example@gmail.com"
+                placeholder="Email"
                 required
               />
             </div>
             <div className={styles.formSection}>
-              <p className={styles.label}>Preferred Day[s]/Time[s]</p>
-              <input
-                type="text"
-                name="time"
-                className={styles.textInput}
-                placeholder="Ex. Monday, Wednesday, 6-7pm"
-                required
-              />
-            </div>
-            <div className={styles.formSection}>
-              <p className={styles.label}>Language/Topic</p>
-              <input
-                type="text"
-                name="language/topic"
-                className={styles.textInput}
-                placeholder="Ex. HTML, CSS, Python, etc."
-                required
-              />
-            </div>
-            <div className={styles.formSection}>
-              <p className={styles.label}>Anything else?</p>
+              <p className={styles.label}>Background/Skills/Any</p>
               <textarea
                 className={`${styles.textInput} ${styles.textarea}`}
-                placeholder="Message..."
+                placeholder="I have been coding for..."
                 required
-                name="message"
+                name="background"
               ></textarea>
             </div>
             <div className={styles.formSection}>
-              <button className={styles.submitButton}>Send Message</button>
+              <button className={styles.submitButton} placeholder="Email">
+                Send Message
+              </button>
             </div>
           </form>
         </div>
@@ -90,5 +76,3 @@ const PrivateLessons = () => {
     </div>
   );
 };
-
-export default PrivateLessons;

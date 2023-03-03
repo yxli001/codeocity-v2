@@ -18,6 +18,10 @@ const Footer = () => {
       to: "/private-lessons",
     },
     {
+      name: "Jobs",
+      to: "/jobs",
+    },
+    {
       name: "Contact",
       to: "/contact",
     },

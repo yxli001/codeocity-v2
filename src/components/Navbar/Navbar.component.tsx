@@ -77,6 +77,16 @@ const Navbar = () => {
         </Link>
         <Link
           className={style.link}
+          to="/jobs"
+          onClick={() => {
+            setDisplayNavbar(!displayNavbar);
+            setIsOpen(!isOpen);
+          }}
+        >
+          Jobs
+        </Link>
+        <Link
+          className={style.link}
           to="/contact"
           onClick={() => {
             setDisplayNavbar(!displayNavbar);

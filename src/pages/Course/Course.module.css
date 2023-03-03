@@ -1,201 +1,201 @@
 .banner {
-    display: flex;
-    padding: 6px;
-    border-radius: 14px;
+  display: flex;
+  padding: 6px;
+  border-radius: 14px;
 }
 
 .info {
-    flex: 1.5;
-    padding: 24px 32px;
-    border-radius: 14px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  flex: 1.5;
+  padding: 24px 32px;
+  border-radius: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .image {
-    width: 80%;
-    aspect-ratio: 2;
-    object-fit: cover;
-    border-radius: 8px;
+  width: 80%;
+  aspect-ratio: 2;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .green {
-    color: #65ca73;
-    font-weight: 700;
+  color: #65ca73;
+  font-weight: 700;
+}
+
+.link {
+  color: #65ca73;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .title {
-    margin-top: 0.5rem;
-    color: #65ca73;
-    font-size: 2.5rem;
-    font-weight: 650;
+  margin-top: 0.5rem;
+  color: #65ca73;
+  font-size: 2.5rem;
+  font-weight: 650;
 }
 
 .infoList {
-    margin-bottom: 2.8rem;
+  margin-bottom: 2.8rem;
 }
 
 .info > .description {
-    font-size: 1.1rem;
-    font-weight: 300;
-    margin-bottom: 2rem;
-    line-height: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.8rem;
 }
 
 .infoList > li > p {
-    font-weight: 500;
-    margin: 0.2rem;
-}
-
-.learn {
-    border: 1px solid #dddddd;
-    padding: 5%;
+  margin: 0.2rem;
 }
 
 .learnTitle {
-    margin-top: 0;
-    font-weight: 600;
+  margin-top: 0;
+  font-weight: 600;
 }
 
 .learnItems {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .learnItem::before {
-    content: "✓";
-    font-size: 1rem;
-    margin-right: 1rem;
+  content: "✓";
+  font-size: 1rem;
+  margin-right: 1rem;
 }
 
 .formContainer {
-    flex: 0.9;
-    background-color: white;
-    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-top: 2rem;
-    padding: 22px 32px;
-    width: 100%;
-    height: 100%;
+  flex: 0.9;
+  background-color: white;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 2rem;
+  padding: 22px 32px;
+  width: 100%;
+  height: 100%;
 }
 
 .formTitle {
-    text-align: center;
-    font-weight: 600;
+  text-align: center;
+  font-weight: 600;
 }
 
 .textInput {
-    width: 90%;
-    padding: 12px 22px;
-    border-radius: 22px;
-    border: 1px solid #e1dfec;
-    outline: none;
+  width: 90%;
+  padding: 12px 22px;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
 }
 
 .selectWrapper {
-    position: relative;
+  position: relative;
 }
 
 .selectWrapper::after {
-    content: "";
-    width: 0.8rem;
-    height: 0.5rem;
-    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
-    background-color: black;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    right: 10px;
+  content: "";
+  width: 0.8rem;
+  height: 0.5rem;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  background-color: black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 10px;
 }
 
 .selectInput {
-    min-width: 100%;
-    padding: 12px 22px;
-    padding-right: 2rem;
-    border-radius: 22px;
-    border: 1px solid #e1dfec;
-    outline: none;
-    color: #909090;
-    appearance: none;
+  min-width: 100%;
+  padding: 12px 22px;
+  padding-right: 2rem;
+  border-radius: 22px;
+  border: 1px solid #e1dfec;
+  outline: none;
+  color: #909090;
+  appearance: none;
 }
 
 .formSection {
-    padding-bottom: 6px;
+  padding-bottom: 6px;
 }
 
 .label {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .textInput:hover,
 .selectInput:hover {
-    border-color: #49a856;
-    transition: 0.5s;
+  border-color: #49a856;
+  transition: 0.5s;
 }
 
 .textInput:active,
 .selectInput:active {
-    border-color: #49a856;
+  border-color: #49a856;
 }
 
 .textarea {
-    resize: none;
-    font-family: "Inter", sans-serif;
-    height: 100px;
-    border-radius: 16px;
+  resize: none;
+  font-family: "Inter", sans-serif;
+  height: 100px;
+  border-radius: 16px;
 }
 
 .submitButton {
-    width: 100%;
-    padding: 16px 32px;
-    border-radius: 22px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    background-color: #65ca73;
-    margin-top: 12px;
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 22px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #65ca73;
+  margin-top: 12px;
 }
 
 .submitButton:hover {
-    background-color: #49a856;
-    cursor: pointer;
+  background-color: #49a856;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1000px) {
-    .banner {
-        flex-direction: column;
-    }
+  .banner {
+    flex-direction: column;
+  }
 
-    .info {
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
+  .info {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 
-    .infoList {
-        list-style: none;
-    }
+  .infoList {
+    list-style: none;
+  }
 
-    .formContainer {
-        box-sizing: border-box;
-        margin-top: 5rem;
-        width: 100%;
-    }
+  .formContainer {
+    box-sizing: border-box;
+    margin-top: 5rem;
+    width: 100%;
+  }
 
-    .selectInput {
-        width: 90%;
-    }
+  .selectInput {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .contactInfo {
-        box-sizing: border-box;
-    }
-    .textInput {
-        width: 100%;
-        box-sizing: border-box;
-    }
+  .contactInfo {
+    box-sizing: border-box;
+  }
+  .textInput {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }

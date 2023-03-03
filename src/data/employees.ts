@@ -11,7 +11,7 @@ const employees: Array<Employee> = [
     name: "Brian Mason",
     roles: ["Founder", "Web Dev 1", "Intro to JavaScript", "Advanced CSS"],
     description:
-      "I am a junior at Walt Whitman Highschool and have been coding for about five years now. I began with website development and then diversified into other languages like Python, Java, and Kotlin! Outside of school, I enjoy playing tennis and am on the Whitman Varsity Tennis Team.",
+      "I am a junior at Walt Whitman Highschool and have been coding for about six years now. Me and Yixuan won the 2022 Congressional App Challenge a few months back, and I am excited to share what I know! In my free time, I play tennis, read, and run!",
     image: brian,
   },
   {
