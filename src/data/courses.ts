@@ -9,7 +9,7 @@ import type { Course } from "./types";
 
 const courses: Array<Course> = [
     {
-        id: 8000,
+        id: 1,
         title: "Scratch Programming",
         price: 200,
         numClasses: 8,
@@ -31,7 +31,7 @@ const courses: Array<Course> = [
         startsOn: "TBD",
     },
     {
-        id: 8001,
+        id: 2,
         title: "Web Dev 1",
         price: 250,
         numClasses: 10,
@@ -40,14 +40,14 @@ const courses: Array<Course> = [
         content: [
             "Introduction to how websites work",
             "Discuss what elements are",
-            "How to display text on a webpage",
+            "How to display text",
             "How to display lists",
             "How to display links",
             "How to add buttons",
-            "How to display and manipulate images",
-            "How to add tables to your website",
+            "How to display images",
+            "How to add tables",
             "How to add forms",
-            "An introduction to using divs",
+            "How to use divs",
             "The box model",
             "How to style your website",
             "How to add floats and clears",
@@ -60,7 +60,7 @@ const courses: Array<Course> = [
         startsOn: "February 6th",
     },
     {
-        id: 8002,
+        id: 3,
         title: "Intro to JavaScript",
         price: 250,
         numClasses: 10,
@@ -89,7 +89,7 @@ const courses: Array<Course> = [
     },
 
     {
-        id: 8003,
+        id: 4,
         title: "Advanced CSS",
         price: 250,
         numClasses: 10,
@@ -109,7 +109,7 @@ const courses: Array<Course> = [
         startsOn: "February 6th",
     },
     {
-        id: 8004,
+        id: 5,
         title: "DOM Manipulation",
         price: 250,
         numClasses: 10,
