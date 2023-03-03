@@ -114,6 +114,7 @@ const CoursePage = (props: Props) => {
                                     name="course"
                                     className={styles.selectInput}
                                     onChange={handleCourseSelect}
+                                    value={selectedCourse?.title}
                                     required
                                 >
                                     {courses.map((course) => (
