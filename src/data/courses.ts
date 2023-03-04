@@ -51,7 +51,7 @@ const courses: Array<Course> = [
     times: ["Tuesday, Thursday : 7-8pm EDT"],
     teachers: checker("Web Dev 1"),
     madeFor: "middle schoolers",
-    startsOn: "February 6th",
+    startsOn: "March 13th",
   },
   {
     id: 3,
@@ -81,11 +81,11 @@ const courses: Array<Course> = [
       },
     ],
     image: javascript,
-    times: ["TBD"],
+    times: ["Monday, Thursday 7-8pm"],
     video: "https://www.youtube.com/embed/e0-IRuJzqi0",
     teachers: checker("Intro to JavaScript"),
     madeFor: "middle schoolers",
-    startsOn: "TBD",
+    startsOn: "March 13th",
   },
   {
     id: 4,
@@ -115,7 +115,7 @@ const courses: Array<Course> = [
     video: "",
     teachers: checker("Advanced CSS"),
     madeFor: "middle schoolers",
-    startsOn: "February 6th",
+    startsOn: "March 13th",
   },
   {
     id: 5,
@@ -145,7 +145,7 @@ const courses: Array<Course> = [
     video: "https://www.youtube.com/embed/n7zQiipRY70",
     teachers: checker("DOM Manipulation"),
     madeFor: "middle schoolers",
-    startsOn: "TBD",
+    startsOn: "March 13th",
   },
 ];
 

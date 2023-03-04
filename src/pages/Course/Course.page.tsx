@@ -77,6 +77,11 @@ const CoursePage = (props: Props) => {
                 $25/hour. Classes start the week of{" "}
                 <span className={styles.green}>{course?.startsOn}!</span>
               </p>
+              <p>
+                You can pay via venmo to
+                <span className={styles.green}> @Sonha-Mason</span>
+                {""} with the last four digits being 5637!
+              </p>
             </div>
 
             <div className={styles.formSection}>
