@@ -12,6 +12,8 @@
     justify-items: center;
     align-items: center;
     gap: 6rem;
+    box-sizing: border-box;
+    padding: 0 10%;
 }
 
 .course {
@@ -20,9 +22,16 @@
     height: 100%;
 }
 
+@media only screen and (max-width: 1300px) {
+    .courses {
+        padding: 0 5%;
+    }
+}
+
 @media only screen and (max-width: 860px) {
     .courses {
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .course {
