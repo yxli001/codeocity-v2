@@ -11,7 +11,7 @@ export type Course = {
   teachers: Array<Employee>;
   madeFor: string;
   startsOn: string;
-  projects: Array<string>;
+  projects: Array<Project>;
 };
 
 export type Employee = {
@@ -19,5 +19,10 @@ export type Employee = {
   name: string;
   roles: Array<string>;
   description: string;
+  image: string;
+};
+
+type Project = {
+  link: string;
   image: string;
 };
