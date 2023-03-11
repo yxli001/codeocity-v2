@@ -76,7 +76,7 @@ const courses: Array<Course> = [
         ],
         projects: [],
         image: javascript,
-        times: ["Monday, Thursday 7-8pm"],
+        times: ["Tuesday, Thursday 7-8pm"],
         video: "https://www.youtube.com/embed/e0-IRuJzqi0",
         teachers: checker("Intro to JavaScript"),
         madeFor: "middle schoolers",
