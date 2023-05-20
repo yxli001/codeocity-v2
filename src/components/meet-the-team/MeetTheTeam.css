@@ -1,0 +1,131 @@
+.container-meet-team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-name {
+  font-family: "PT Sans", sans-serif;
+}
+
+.profile-container {
+  width: 100%;
+  padding: 2%;
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.profile-data {
+  overflow: hidden;
+  height: 100%;
+  width: 15rem;
+}
+
+.profile-image {
+  width: 50%;
+  height: 20rem;
+  margin-left: 4rem;
+  object-fit: contain;
+}
+
+.carousel-container {
+  position: relative;
+  height: 100%;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide {
+  /* display: none; */
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+.active {
+  position: static;
+  display: block;
+  animation: zoom 0.4s linear;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.1);
+  }
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -80px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.profile-image {
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 950px) {
+  .container-meet-team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .container-meet-team {
+    width: 100%;
+  }
+  .profile-container {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .profile-data {
+    width: 80%;
+    text-align: center;
+  }
+  .profile-image {
+    width: 80%;
+    margin-left: 0rem;
+  }
+  .left-arrow {
+    left: -60px;
+  }
+  .right-arrow {
+    right: -60px;
+  }
+}
+
+.force-center-text {
+  text-align: center;
+  color: rgb(101, 202, 115);
+  padding-top: 1rem;
+}
+
+.read-more-button {
+  display: block;
+  color: rgb(101, 202, 115);
+  margin-top: 0.2rem;
+}
+
+.read-more-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
