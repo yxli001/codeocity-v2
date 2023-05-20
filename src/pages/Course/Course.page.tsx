@@ -79,8 +79,8 @@ const CoursePage = (props: Props) => {
               </p>
               <p>
                 You can pay via venmo to
-                <span className={styles.green}> @Sonha-Mason</span>
-                {""} with the last four digits being 5637!
+                <span className={styles.green}> @Brian-Mason-167</span>
+                {""} with the last four digits being 9136!
               </p>
             </div>
 
