@@ -106,7 +106,7 @@ const courses: Array<Course> = [
       },
     ],
     image: advancedCSS,
-    times: ["Monday, Thursday : 7-8pm EDT"],
+    times: ["Tuesday, Thursday : 7-8pm EDT"],
     video: "",
     teachers: checker("Advanced CSS"),
     madeFor: "middle schoolers",
