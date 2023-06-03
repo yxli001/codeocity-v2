@@ -73,14 +73,19 @@ const CoursePage = (props: Props) => {
                 <span className={styles.green}> five</span> students. Total of
                 <span className={styles.green}> {course?.numClasses}</span>{" "}
                 online classes, twice a week. Total cost is:{" "}
-                <span className={styles.green}>${course?.price}</span> -
-                $25/hour. Classes start the week of{" "}
-                <span className={styles.green}>{course?.startsOn}!</span>
+                <span className={styles.green}>${course?.price}</span>. Classes
+                start the week of{" "}
+                <span className={styles.green}>{course?.startsOn}</span> and end
+                the week of{" "}
+                <span className={styles.green}>{course?.endsOn}!</span>
               </p>
+              <p>All classes are held online through Google Meets</p>
               <p>
-                You can pay via venmo to
+                You can pay via Venmo to
                 <span className={styles.green}> @Brian-Mason-167</span>
-                {""} with the last four digits being 9136!
+                {""} with the last four digits being 9136! PayPal to
+                <span className={styles.green}> @helpmeout128</span> is also
+                another option!
               </p>
             </div>
 
