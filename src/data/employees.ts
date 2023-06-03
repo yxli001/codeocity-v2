@@ -11,7 +11,7 @@ const employees: Array<Employee> = [
     name: "Brian Mason",
     roles: ["Founder", "Private Lessons"],
     description:
-      "I am a junior at Walt Whitman Highschool and have been coding for about six years now. Me and Yixuan won the 2022 Congressional App Challenge a few months back, and I am excited to share what I know! In my free time, I play tennis, read, and run!",
+      "I am a senior at Walt Whitman Highschool and have been coding for about seven years now! I am most proud of creating a Top 20 Android App! In my free time, I play tennis, read, and run!",
     image: brian,
   },
   {
@@ -19,7 +19,7 @@ const employees: Array<Employee> = [
     name: "Yixuan Li",
     roles: ["Founder", "Private Lessons", "Advanced CSS"],
     description:
-      "I am a junior at Walt Whitman High School. I've been coding for about 4 years and have taught myself programming languages such as Java, Python, JavaScript, and Swift. ",
+      "I am a senior at Walt Whitman Highschool and have been coding for five years! Brian and I won the 2022 Congressional App Challenge a few months back, and I am excited to share what I know!",
     image: yixuan,
   },
   {
@@ -27,7 +27,7 @@ const employees: Array<Employee> = [
     name: "Colin Frankel",
     roles: ["Web Dev 1", "Intro to JavaScript"],
     description:
-      "I am a junior at Walt Whitman Highschool. I have been coding for about four years. I started with learning HTML and CSS and then later learned JavaScript to make content dynamic on my websites!",
+      "I am a senior at Walt Whitman Highschool and have been coding for four years. I am excited to share what I know!",
     image: colin,
   },
   {
@@ -35,7 +35,7 @@ const employees: Array<Employee> = [
     name: "Dante Suzuki",
     roles: ["Private Lessons"],
     description:
-      "I'm a junior at Walt Whitman High School and have been in computer science for about six years. I have been involved in Java, C++, C#, HTML, Python, and Scratch.",
+      "I'm a senior at Walt Whitman High School and have been in computer science for about six years. I love to make games in Unity and I teach that skill in private lessons!",
     image: dante,
   },
 ];
