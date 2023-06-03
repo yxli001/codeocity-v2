@@ -11,7 +11,7 @@ const employees: Array<Employee> = [
     name: "Brian Mason",
     roles: ["Founder", "Private Lessons"],
     description:
-      "I am a senior at Walt Whitman Highschool and have been coding for about seven years now! I am most proud of creating a Top 20 Android App! In my free time, I play tennis, read, and run!",
+      "I am a senior at Walt Whitman Highschool and have been coding for about seven years now! I am most proud of creating a T20 Android App! In my free time, I play tennis, read, and run!",
     image: brian,
   },
   {
