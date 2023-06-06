@@ -51,7 +51,11 @@ const courses: Array<Course> = [
     ],
     image: webdev,
     video: "https://www.youtube.com/watch?v=yOiZifoQ9_U",
-    times: ["Tuesday, Thursday : 7-8pm EDT", "Private Lesson"],
+    times: [
+      "Tuesday, Thursday : 7-8pm EDT",
+      "Private Lesson",
+      "Monday, Wednesday : 7-8pm EDT",
+    ],
     teachers: checker("Web Dev 1"),
     madeFor: "middle schoolers",
     startsOn: "June 26th",
