@@ -5,8 +5,6 @@ import webdevproject1 from "../images/web-dev-project-1.png";
 import webdevproject2 from "../images/web-dev-project-2.png";
 import advancedcssproject1 from "../images/advanced-css-project-1.png";
 import advancedcssproject2 from "../images/advanced-css-project-2.png";
-import dommanipulationproject1 from "../images/dom-manipulation-project-1.png";
-import dommanipulationproject2 from "../images/dom-manipulation-project-2.png";
 import pythonproject1 from "../images/python-project-1.png";
 import pythonproject2 from "../images/python-project-2.jpg";
 import pythonproject3 from "../images/python-project-3.png";
